@@ -17,4 +17,9 @@ export default defineConfig({
       "@": resolve(__dirname, "./src"),
     },
   },
+  output: {
+    distPath: {
+      root: "dist",
+    },
+  },
 });
